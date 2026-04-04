@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL:'https://civicvote-backend-production.up.railway.app/api',
   timeout: 15000,
 })
 
